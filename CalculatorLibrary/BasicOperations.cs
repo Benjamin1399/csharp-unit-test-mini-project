@@ -23,7 +23,14 @@ namespace CalculatorLibrary
 
         public double DivideTwoNumbers(double a, double b)
         {
-            return a / b;
+            double output = 0;
+
+            if (b != 0)
+            {
+                output = a / b;
+            }
+
+            return output;
         }
     }
 }
