@@ -8,22 +8,22 @@ namespace CalculatorLibrary
     {
         public double AddTwoNumbers(double a, double b)
         {
-            return 0;
+            return a + b;
         }
 
         public double SubtractTwoNumbers(double a, double b)
         {
-            return 0;
+            return a - b;
         }
 
         public double MultiplyTwoNumbers(double a, double b)
         {
-            return 0;
+            return a * b;
         }
 
         public double DivideTwoNumbers(double a, double b)
         {
-            return 0;
+            return a / b;
         }
     }
 }
